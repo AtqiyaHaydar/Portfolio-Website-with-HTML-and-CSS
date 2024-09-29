@@ -3,58 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Web</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Atqiya</h1>
-      <ul>
-        <li>About</li>
-        <li>Experiences</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+  <!-- Hero -->
+  <header class="hero animate-fade-in">
+    <h1 class="title">Software Engineer & Software Designer</h1>
+    <p class="description">A software engineer and UI/UX designer with 2+ years of experience in both fields. Known for the ability to develop excellent websites with captivating designs. Adaptable and collaborative.</p>
+    <button class="contact-btn">Contact Me</button>
   </header>
 
-  <section>
-    <h2>Hello, I'm <span>Atqiya</span></h2>
-    <p>I'm a Software Engineer | UI/UX Designer</p>
+  <!-- About Me -->
+  <section class="about-me animate-fade-in">
+    <h3 class="section-title">A B O U T M E</h3>
+    <div class="about-content">
+      <p class="about-description">Hi, my name is Atqiya, a dedicated software engineer with a strong focus on UI/UX design and web development. I have extensive experience in building scalable, user-friendly applications using technologies like React, Next.js, and Node.js.</p>
+    </div>
   </section>
 
-  <section id="#about">
-    <h2>About Me</h2>
-    <p>
-      I'm a third-year Informatics student at Institut Teknologi Bandung (ITB) with over 2 years of experience as a software engineer and UI/UX designer. Known for my ability to develop excellent websites with captivating designs, I am passionate about reading books, designing applications, and creating websites. I am highly adaptable, collaborative, and possess a strong sense of leadership.
-    </p>
+  <!-- Skills -->
+  <section class="skills animate-fade-in">
+    <h3 class="section-title">S K I L L S</h3>
+    <ul class="skills-list">
+      <li class="skill-item">HTML & CSS</li>
+      <li class="skill-item">JavaScript & TypeScript</li>
+      <li class="skill-item">React & Next.js</li>
+      <li class="skill-item">Node.js & Express</li>
+      <li class="skill-item">UI/UX Design</li>
+      <li class="skill-item">Version Control (Git)</li>
+    </ul>
   </section>
 
-  <section id="#Experiences">
-    <h2>Experiences</h2>
-    <ul>
-      <li>
-        <div>
-          <p>Software Engineering Laboratory Assistant</p>
-          <p>Institut Teknologi Bandung</p>
-        </div>
-        <p>Sep 2024 - Now</p>
+  <!-- Projects -->
+  <section class="projects animate-fade-in">
+    <h3 class="section-title">P R O J E C T S</h3>
+    <ul class="projects-list">
+      <li class="project-item">
+        <video autoplay muted loop class="project-video">
+          <source src="/websites/datequest.webm" type="video/webm">
+        </video>
+        <p class="project-title">DateQuest</p>
+        <p class="project-description">A website to ask your crush on a date!</p>
       </li>
-      <li>
-        <div>
-          <p>Developer Intern</p>
-          <p>Purple Foxes Italy</p>
-        </div>
-        <p>Jul 2024 - Now</p>
-      </li>
-      <li>
-        <div>
-          <p>UI/UX Designer Intern</p>
-          <p>Datare</p>
-        </div>
-        <p>Nov 2023 - Jan 2024</p>
-      </li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact animate-fade-in">
+    <h3 class="section-title">C O N T A C T</h3>
+    <ul class="contact-list">
+      <li class="contact-item">Phone: +62 815 7377 9675</li>
+      <li class="contact-item">Github: AtqiyaHaydar</li>
+      <li class="contact-item">LinkedIn: Atqiya Haydar</li>
+      <li class="contact-item">Instagram: AtqiyaHaydar</li>
     </ul>
   </section>
 </body>
